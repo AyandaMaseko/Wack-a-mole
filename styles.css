@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+}
+.score{
+    color: red;
+    width: -50%;
+    margin: 0 auto; 
+    
+   
+
+}
+.time{
+    color: red;
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+
+.grid{
+    width:606px ;
+    height: 606px;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(mole\ background.jpg);
+    position: fixed;
+    background-size: cover;
+    
+    
+  
+}
+
+.square{
+    height: 200px;
+    width: 200px;
+    border:solid black 1px;
+    text-align: center;
+}
+.mole{
+    background-image: url(mole2.png);
+    background-size: cover;
+    
+}
+@media only screen and(max-width:2000px) {
+    .grid{
+        width:600px ;
+height: 700px;
+
+    }
+}
